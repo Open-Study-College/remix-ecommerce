@@ -426,7 +426,7 @@ function formatPrice({
   amount: string;
   currencyCode: string;
 }) {
-  return `$${amount} ${currencyCode}`;
+  return `£${amount} ${currencyCode}`;
 }
 
 let createCheckoutUrlMutation = /* GraphQL */ `
